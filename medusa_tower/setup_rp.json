@@ -85,7 +85,7 @@
 		"item_equip":"garlic necklace", "item_unequip":"foxtail amulet", "selected_monsters":["Serpent Spawn", "Medusa"], "amount":3, "slot":"amulet"}},
 	{"action":"refill_diamond_ammo", "interval":1, "use_in_battle":true, "args":{"save_single_target":true}},
 	{"action":"recover_full_mana", "interval":4, "args":["e"]},
-	{"action":"lure_monsters_diamond_arrow", "interval":0.7, "args":[5]}
+	{"action":"lure_monsters_diamond_arrow", "interval":0.7, "args":{"count":5}}
 ],
 "target_monsters": 
 [
