@@ -24,6 +24,7 @@ These scripts are the official scripts for CloudBot.
 | 60+   | [Dark Cathedral -2](dark_cathedral/setup.json)   | :star:                                  | :star: :star: :star:                    |
 | 70+   | Ancient Scarab Khazel           | :star: :star:                           | :star: :star:                    |     
 | 80+   | [Stonerefiner](stonerefiner/setup_ek.json) | :star: :star: :star:                    | :star: :star: :star:                    |
+| 80+   | [Wyrms LB Hills - good if nice skills](lb_wyrm_hills/setup_ek.json) | :star: :star: :star:            | :star: :star: :star: |
 | 90+   | Mother of Scarab                | :star: :star:                           | :star: :star:                    |  
 | 90+   | [Killer Caimans](killer_caimans/setup.json)                  | :star: :star: :star:                    | :star: :star:                           |
 | 100+  | [Giant Spider Port Hope](giant_spider_cave/setup_ek.json)          | :star: :star:                           | :star: :star: :star:     |         
