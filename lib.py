@@ -326,7 +326,14 @@ def anti_drunk(client, item_equip, item_unequip=None, slot='ring'):
             else:
                 print('[Action] Equip', item_unequip)
                 client.hotkey(unequip_hotkey)
-
+                
+# Cast spell if hp is low               
+def cast_spell_if_lowhp(client, hotkey, hppercent):
+    spell_hotkey = hotkey
+    hp_percentage, mp_percentage = client.status_bar.get_percentage()
+    if hp_percentage < hppercent:
+        client.hotkey(spell_hotkey)
+        
 # Cast spell if mana full
 def cast_spell(client, hotkey='v'):
     spell_hotkey = hotkey
